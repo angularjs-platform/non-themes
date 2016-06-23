@@ -1,0 +1,8 @@
+{
+  "name": "non-theme-base",
+  "version": "0.1.0",
+  "description": "Base Theme",
+  "peerDependencies": {
+    "angular-material": "1.0.8"
+  }
+}
