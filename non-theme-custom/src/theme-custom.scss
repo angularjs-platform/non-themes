@@ -1,7 +1,7 @@
-.non-theme-custom{
+.non-theme-custom {
     @import 'partials/override-base';
     @import 'partials/override-angular-material';
-    @import '~non-theme-base/src/theme-base';
+    @import '~@norn/non-theme-base/src/theme-base';
 
     @import 'partials/variables';
     @import 'partials/mixins';
