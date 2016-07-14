@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "description": "Default Theme",
   "main": "src/theme-default.module.ts",
-  "typings": "src/theme-default.model.ts",
+  "scripts" : {
+      "install-typings": "typings install"
+  },
   "peerDependencies": {
-    "angular": "1.5.5",
-    "angular-material": "1.0.8",
+    "angular": "1.5.7",
+    "angular-material": "1.0.9",
     "@norn/non-theme-base": "0.1.0"
   },
   "devDependencies": {
