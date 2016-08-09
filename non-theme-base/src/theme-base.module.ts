@@ -1,7 +1,5 @@
 const moduleName: string = 'non.theme-base';
 
-import * as angular from 'angular';
-
 import {IconConfig} from './base.icon.config';
 
 // Google Material Design Icons used from https://materialdesignicons.com/
