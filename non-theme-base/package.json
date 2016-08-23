@@ -8,7 +8,7 @@
   },
   "peerDependencies": {
     "angular": "1.5.7",
-    "angular-material": "1.0.9"
+    "angular-material": "1.1.0"
   },
   "devDependencies": {
     "typings": "0.7.12"
