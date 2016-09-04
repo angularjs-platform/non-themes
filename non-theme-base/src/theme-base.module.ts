@@ -1,11 +1,11 @@
 const moduleName: string = 'non.theme-base';
 
-import {IconConfig} from './base.icon.config';
+import {ThemeBaseConfig} from './theme-base.config';
 
 // Google Material Design Icons used from https://materialdesignicons.com/
-import './icons/mdi.svg';
+import './assets/icons/mdi.svg';
 
 angular.module(moduleName, [])
-    .config(IconConfig);
+    .config(ThemeBaseConfig);
 
 export default moduleName;
