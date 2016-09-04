@@ -1,12 +1,8 @@
 .non-theme-custom {
-    @import 'partials/override-base';
-    @import 'partials/override-angular-material';
-    @import '~@norn/non-theme-base/src/theme-base';
-
-    @import 'partials/variables';
-    @import 'partials/mixins';
-    @import 'partials/functions';
-    @import 'partials/extends';
+    @import 'styles/partials/variables';
+    @import 'styles/partials/mixins';
+    @import 'styles/partials/functions';
+    @import 'styles/partials/extends';
 }
 
 

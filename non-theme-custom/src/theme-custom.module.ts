@@ -1,7 +1,8 @@
 const moduleName: string = 'non.theme-custom';
 
-import './theme-custom.scss';
+import {ThemeCustomConfig} from './theme-custom.config';
 
-angular.module(moduleName, []);
+angular.module(moduleName, [])
+    .config(ThemeCustomConfig);
 
 export default moduleName;

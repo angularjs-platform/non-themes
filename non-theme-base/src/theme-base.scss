@@ -1,13 +1,11 @@
-@import 'partials/override-angular-material';
+@import 'styles/vendors/override-angular-material-variables';
 @import '~angular-material/angular-material';
+@import 'styles/vendors/override-angular-material-styles';
 
-@import 'partials/variables';
-@import 'partials/mixins';
-@import 'partials/functions';
-@import 'partials/extends';
-
-@import 'styles/components';
-
+@import 'styles/partials/variables';
+@import 'styles/partials/mixins';
+@import 'styles/partials/functions';
+@import 'styles/partials/extends';
 
 body {
     overflow-x: hidden;
