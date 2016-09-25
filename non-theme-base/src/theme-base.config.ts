@@ -6,7 +6,10 @@ export class ThemeBaseConfig {
 
         $mdThemingProvider.theme('base')
              .primaryPalette('blue')
-            .accentPalette('pink');
+             .accentPalette('pink')
+             .backgroundPalette('grey', {
+                 'default': 'A100'
+             });
 
         $mdThemingProvider.setDefaultTheme('base');
     }

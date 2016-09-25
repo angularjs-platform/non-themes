@@ -7,7 +7,5 @@
 @import 'styles/partials/functions';
 @import 'styles/partials/extends';
 
-body {
-    overflow-x: hidden;
-}
-
+@import 'styles/app/base';
+@import 'styles/app/forms';
