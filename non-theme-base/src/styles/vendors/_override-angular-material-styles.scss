@@ -1,3 +1,25 @@
-md-input-container {
+// TODO:G Move this color to a Theme when we componentize the scss in different files
+$non-field-readonly-border-color: rgba(0, 0, 0, .12);
+$non-field-readonly-color: #000;
+
+md-input-container,
+md-datepicker,
+.md-datepicker-input-container {
     width: 100%;
 }
+
+.md-datepicker-input {
+    max-width: none;
+}
+
+md-datepicker.readonly .md-datepicker-input.md-input[disabled],
+md-select.readonly[disabled] .md-select-value {
+    border-bottom-color: $non-field-readonly-border-color;
+    background: none;
+    color: $non-field-readonly-color;
+}
+
+md-input-container textarea.md-input {
+    line-height: normal;
+}
+
