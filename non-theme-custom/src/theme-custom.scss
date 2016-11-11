@@ -1,8 +1,12 @@
-.non-theme-custom {
-    @import 'styles/partials/variables';
-    @import 'styles/partials/mixins';
-    @import 'styles/partials/functions';
-    @import 'styles/partials/extends';
-}
+@import 'styles/vendors/override-angular-material-styles';
+
+@import 'styles/partials/colors';
+@import 'styles/partials/variables';
+@import 'styles/partials/mixins';
+@import 'styles/partials/functions';
+@import 'styles/partials/extends';
+
+@import 'styles/app/base';
+@import 'styles/app/forms';
 
 

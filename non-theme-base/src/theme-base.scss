@@ -1,7 +1,6 @@
-@import 'styles/vendors/override-angular-material-variables';
-@import '~angular-material/angular-material';
 @import 'styles/vendors/override-angular-material-styles';
 
+@import 'styles/partials/colors';
 @import 'styles/partials/variables';
 @import 'styles/partials/mixins';
 @import 'styles/partials/functions';

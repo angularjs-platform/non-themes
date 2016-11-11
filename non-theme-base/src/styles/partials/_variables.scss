@@ -1,1 +1,10 @@
+// body
 $base-body-background: #fff;
+
+// Primary Toolbar
+$primary-layout-toolbar-height: 64px;
+$primary-layout-toolbar-separator-bg-color: rgba(0, 0, 0, .12);
+
+// Login
+$login-background: radial-gradient(circle at 70% 85%, $primary-a100, $primary-300 28%, $primary-500  51%, $primary-600  66%, $primary-900);
+$login-whiteframe-background: $primary-50;
