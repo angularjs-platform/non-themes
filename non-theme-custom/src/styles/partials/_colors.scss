@@ -1,0 +1,48 @@
+// Primary Color Palette
+$primary-50: #E0F2F1;
+$primary-100: #B2DFDB;
+$primary-200: #80CBC4;
+$primary-300: #4DB6AC;
+$primary-400: #26A69A;
+$primary-500: #009688;
+$primary-600: #00897B;
+$primary-700: #00796B;
+$primary-800: #00695C;
+$primary-900: #004D40;
+$primary-a100: #A7FFEB;
+$primary-a200: #64FFDA;
+$primary-a400: #1DE9B6;
+$primary-a700: #00BFA5;
+
+$primary-default: $primary-400;
+$primary-hue-1: $primary-100;
+$primary-hue-2: $primary-300;
+$primary-hue-3: $primary-700;
+
+// Accent Color Palette
+$accent-50: #FFF8E1;
+$accent-100: #FFECB3;
+$accent-200: #FFE082;
+$accent-300: #FFD54F;
+$accent-400: #FFCA28;
+$accent-500: #FFC107;
+$accent-600: #FFB300;
+$accent-700: #FFA000;
+$accent-800: #FF8F00;
+$accent-900: #FF6F00;
+$accent-a100: #FFE57F;
+$accent-a200: #FFD740;
+$accent-a400: #FFC400;
+$accent-a700: #FFAB00;
+
+$accent-default: $accent-500;
+$accent-hue-1: $accent-100;
+$accent-hue-2: $accent-300;
+$accent-hue-3: $accent-700;
+
+//  Font Color
+$font-color-light: #fff;
+$font-color-dark: #777;
+
+// Menu
+$menu-hover-bg: rgba(0, 0, 0, .3);
