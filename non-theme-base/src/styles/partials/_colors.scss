@@ -14,35 +14,35 @@ $primary-a200: #18FFFF;
 $primary-a400: #00E5FF;
 $primary-a700: #00B8D4;
 
-$primary-default: $primary-500;
+$primary-default: $primary-600;
 $primary-hue-1: $primary-100;
-$primary-hue-2: $primary-300;
-$primary-hue-3: $primary-700;
+$primary-hue-2: $primary-400;
+$primary-hue-3: $primary-800;
 
 // Accent Color Palette
-$accent-50: #FCE4EC;
-$accent-100: #F8BBD0;
-$accent-200: #F48FB1;
-$accent-300: #F06292;
-$accent-400: #EC407A;
-$accent-500: #E91E63;
-$accent-600: #D81B60;
-$accent-700: #C2185B;
-$accent-800: #AD1457;
-$accent-900: #880E4F;
-$accent-a100: #FF80AB;
-$accent-a200: #FF4081;
-$accent-a400: #F50057;
-$accent-a700: #C51162;
+$accent-50: #ECEFF1;
+$accent-100: #CFD8DC;
+$accent-200: #B0BEC5;
+$accent-300: #90A4AE;
+$accent-400: #78909C;
+$accent-500: #607D8B;
+$accent-600: #546E7A;
+$accent-700: #455A64;
+$accent-800: #37474F;
+$accent-900: #263238;
+$accent-a100: #CFD8DC;
+$accent-a200: #B0BEC5;
+$accent-a400: #90A4AE;
+$accent-a700: #78909C;
 
-$accent-default: $accent-300;
+$accent-default: $accent-500;
 $accent-hue-1: $accent-100;
-$accent-hue-2: $accent-200;
-$accent-hue-3: $accent-600;
+$accent-hue-2: $accent-300;
+$accent-hue-3: $accent-700;
 
 //  Font Color
 $font-color-light: #fff;
-$font-color-dark: #777;
+$font-color-dark: #000;
 
 // Menu
 $menu-hover-bg: rgba(0, 0, 0, .3);
