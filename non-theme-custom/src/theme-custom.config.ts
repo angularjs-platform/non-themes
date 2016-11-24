@@ -28,20 +28,20 @@ export class ThemeCustomConfig {
 
         // Define the accent palette hues(colors)
         $mdThemingProvider.definePalette('accent-custom-theme-palette', {
-            '50': 'FFF8E1',
-            '100': 'FFECB3',
-            '200': 'FFE082',
-            '300': 'FFD54F',
-            '400': 'FFCA28',
-            '500': 'FFC107',
-            '600': 'FFB300',
-            '700': 'FFA000',
-            '800': 'FF8F00',
-            '900': 'FF6F00',
-            'A100': 'FFE57F',
-            'A200': 'FFD740',
-            'A400': 'FFC400',
-            'A700': 'FFAB00',
+            '50': 'E1F5FE',
+            '100': 'B3E5FC',
+            '200': '81D4FA',
+            '300': '4FC3F7',
+            '400': '29B6F6',
+            '500': '03A9F4',
+            '600': '039BE5',
+            '700': '0288D1',
+            '800': '0277BD',
+            '900': '01579B',
+            'A100': '80D8FF',
+            'A200': '40C4FF',
+            'A400': '00B0FF',
+            'A700': '0091EA',
             'contrastDefaultColor': 'light',    // whether, by default, text (contrast) on this palette should be dark or light
             'contrastDarkColors': ['50', '100', '200', 'A100', 'A200'], // hues for which contrast (text color) should be 'dark' by default
             'contrastLightColors': undefined    // could also specify this if default was 'dark'
@@ -49,13 +49,13 @@ export class ThemeCustomConfig {
 
         $mdThemingProvider.theme('custom')
             .primaryPalette('primary-custom-theme-palette', {
-                'default': '400', // by default use shade 500 from the primary-base-theme-palette for primary intentions
-                'hue-1': '100', // use shade 100 for the <code>md-hue-1</code> class
-                'hue-2': '300', // use shade 300 for the <code>md-hue-2</code> class
-                'hue-3': '700' // use shade 700 for the <code>md-hue-3</code> class
+                'default': '600',
+                'hue-1': '100',
+                'hue-2': '400',
+                'hue-3': '800'
             })
             .accentPalette('accent-custom-theme-palette', {
-                'default': '500',
+                'default': '600',
                 'hue-1': '100',
                 'hue-2': '300',
                 'hue-3': '700'

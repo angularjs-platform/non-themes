@@ -28,20 +28,20 @@ export class ThemeBaseConfig {
 
         // Define the accent palette hues(colors)
         $mdThemingProvider.definePalette('accent-base-theme-palette', {
-            '50': 'FCE4EC',
-            '100': 'F8BBD0',
-            '200': 'F48FB1',
-            '300': 'F06292',
-            '400': 'EC407A',
-            '500': 'E91E63',
-            '600': 'D81B60',
-            '700': 'C2185B',
-            '800': 'AD1457',
-            '900': '880E4F',
-            'A100': 'FF80AB',
-            'A200': 'FF4081',
-            'A400': 'F50057',
-            'A700': 'C51162',
+            '50': 'ECEFF1',
+            '100': 'CFD8DC',
+            '200': 'B0BEC5',
+            '300': '90A4AE',
+            '400': '78909C',
+            '500': '607D8B',
+            '600': '546E7A',
+            '700': '455A64',
+            '800': '37474F',
+            '900': '263238',
+            'A100': 'CFD8DC',
+            'A200': 'B0BEC5',
+            'A400': '90A4AE',
+            'A700': '78909C',
             'contrastDefaultColor': 'light',    // whether, by default, text (contrast) on this palette should be dark or light
             'contrastDarkColors': ['50', '100', 'A100'], // hues for which contrast (text color) should be 'dark' by default
             'contrastLightColors': undefined    // could also specify this if default was 'dark'
@@ -49,16 +49,16 @@ export class ThemeBaseConfig {
 
         $mdThemingProvider.theme('base')
             .primaryPalette('primary-base-theme-palette', {
-                'default': '500', // by default use shade 500 from the primary-base-theme-palette for primary intentions
-                'hue-1': '100', // use shade 100 for the <code>md-hue-1</code> class
-                'hue-2': '300', // use shade 300 for the <code>md-hue-2</code> class
-                'hue-3': '700' // use shade 700 for the <code>md-hue-3</code> class
+                'default': '600',
+                'hue-1': '100',
+                'hue-2': '400',
+                'hue-3': '800'
             })
             .accentPalette('accent-base-theme-palette', {
-                'default': '300',
+                'default': '500',
                 'hue-1': '100',
-                'hue-2': '200',
-                'hue-3': '600'
+                'hue-2': '300',
+                'hue-3': '700'
             });
     }
 }

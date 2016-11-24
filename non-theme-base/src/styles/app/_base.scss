@@ -1,5 +1,11 @@
 body {
     overflow-x: hidden;
     background: $base-body-background;
+    font-size: 14px;
+
+    #loading-bar .bar {
+        background: $accent-default;
+        height: 4px;
+    }
 }
 
