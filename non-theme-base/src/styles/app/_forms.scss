@@ -1,3 +1,28 @@
-.formly-field-group .formly-field {
-    padding-right: 5px;
+.formly-field-group  {
+
+    .formly-field {
+        padding-right: 5px;
+    }
+
+    fieldset {
+        border-radius: 4px;
+        border-style: dotted;
+        margin: 0;
+        border-color: $accent-hue-2;
+
+        legend {
+            .md-subheader {
+                font-weight: bold;
+                color: $primary-default;
+                background: transparent;
+            }
+        }
+    }
+}
+
+.formly-field {
+    md-divider {
+        border: 1px solid $accent-hue-2;
+        margin: 10px 0;
+    }
 }
