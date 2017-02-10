@@ -35,3 +35,15 @@
         margin: 16px;
     }
 }
+
+div[ng-jsoneditor] {
+
+    div.jsoneditor-menu {
+        background: $primary-default;
+        color: $font-color-light;
+
+        > a {
+            display: none;
+        }
+    }
+}
