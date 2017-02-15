@@ -1,3 +1,5 @@
+import * as angular from 'angular';
+
 const moduleName: string = 'non.theme-base';
 
 import {ThemeBaseConfig} from './theme-base.config';
