@@ -3,14 +3,12 @@
   "version": "0.1.0",
   "description": "Custom Theme",
   "main": "src/theme-custom.module.ts",
-  "scripts" : {
-      "install-typings": "typings install"
-  },
+  "scripts" : {},
   "peerDependencies": {
     "angular": "1.5.8",
     "angular-material": "1.1.1"
   },
   "devDependencies": {
-    "typings": "0.7.12"
+    "@types/angular": "1.6.5"
   }
 }
