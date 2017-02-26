@@ -9,6 +9,7 @@
     "angular-material": "1.1.1"
   },
   "devDependencies": {
-    "@types/angular": "1.6.5"
+    "@types/angular": "1.6.5",
+    "@types/angular-material": "1.1.45"
   }
 }
