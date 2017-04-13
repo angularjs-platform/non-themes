@@ -8,17 +8,18 @@ body {
         height: 4px;
     }
 
-    .scroll-style {
+    .scroll-style,
+    md-tab-content {
         &::-webkit-scrollbar-track {
-            border-radius: 10px;
+            border-radius: 8px;
         }
 
         &::-webkit-scrollbar {
-            width: 8px;
+            width: 6px;
         }
 
         &::-webkit-scrollbar-thumb {
-            border-radius: 10px;
+            border-radius: 8px;
             background-color: $scroll-color;
         }
     }
